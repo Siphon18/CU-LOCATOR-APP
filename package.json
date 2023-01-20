@@ -1,0 +1,23 @@
+{
+  "name": "store_locator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon sever.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "node-geocoder": "^4.1.0",
+    "react-map-gl": "^7.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
